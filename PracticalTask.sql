@@ -41,7 +41,7 @@ SELECT consent_status, is_profile_active, date_profile_created, date_profile_dea
 FROM customer;
 
 SELECT * FROM customer
-WHERE customenr_id BETWEEN 5 AND 7;
+WHERE customer_id BETWEEN 5 AND 7;
 
 UPDATE customer 
 SET 
@@ -60,7 +60,7 @@ date_profile_deactivated = CURRENT_timestamp,
 is_profile_active = FALSE, 
 reason_for_deactivation = 'locked password',
 date_profile_created = NULL
-WHERE customer_id BETWEEN (4, 5);
+WHERE customer_id BETWEEN 4 AND 5;
 
 --activate account:
 UPDATE customer 

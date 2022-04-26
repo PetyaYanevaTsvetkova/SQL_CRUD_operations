@@ -57,7 +57,7 @@ SELECT menu_id, product_name from menu
 WHERE menu_id = 1;
 
 SELECT menu_id, product_name from menu
-WHERE menu_id BETWEEN (1, 2);
+WHERE menu_id BETWEEN 1 AND 2;
 
 --UPDATE
 UPDATE table_name
