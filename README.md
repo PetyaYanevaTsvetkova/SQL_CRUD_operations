@@ -3,12 +3,12 @@ SQL: CRUD operations
 
 ## Project Description:
 
-	###Theory:
+	### Theory:
 Create, Read, Update and Delete records
 Reading only specific columns from a table
 WHERE clause basics (column=value)
 
-	###Practical tasks:
+	### Practical tasks:
 SQL CRUD operation scripts 
 Description: Create SQL scripts for CRUD operations of customers table:
 create customer
@@ -26,7 +26,7 @@ deactivate account
 activate account 
 delete customer by id
 
-	###Acceptance criteria:
+	### Acceptance criteria:
 As a QA Automation trainee, I want to gain knowledge of how to perform SQL CRUD operations.
 
 
